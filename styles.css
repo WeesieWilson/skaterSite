@@ -1,0 +1,182 @@
+/*UNIVERSAL STYLES*/
+body{
+  background-color: lightgrey;
+  width: 100%;
+}
+
+.wrapper{
+  /*background-color: lightblue;*/
+  width: 60%;
+  margin: 0 auto;
+  min-height: 900px;
+}
+
+/*HEADER STYLES*/
+header{
+  /*background-color: lightpink;*/
+  width:100%;
+  text-align: right;
+}
+
+header p{
+  display: inline-block;
+  position: relative;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  vertical-align: text-bottom;
+  margin-right: 7px;
+  left: 108px;
+}
+
+header div{
+  display: inline-block;
+}
+
+header ul{
+  margin-right: -168px;
+}
+
+header li{
+    font-size: 10px;
+    margin-top: -5px;
+    margin-left: 112px
+}
+
+.socialContainer{
+  display: inline-block;
+  width: 40%;
+  padding-top: 4px;
+}
+
+.facebookBox {
+  width: 13%;
+  height: 37px;
+  /*background-color: green;*/
+  display: inline-block;
+  border-bottom: grey solid 3px;
+  vertical-align: bottom;
+  background-image: url(facebookwhite.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 9px;
+  background-position-y: 6px;
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  height: 37px;
+  width: 3.1%;
+  background-color: rgba(27, 35, 97, 0.98);
+  opacity: .7;
+}
+.rssBox {
+  width: 13%;
+  height: 37px;
+  /*background-color: green;*/
+  display: inline-block;
+  border-bottom: grey solid 3px;
+  vertical-align: bottom;
+  background-image: url(rss.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 9px;
+  background-position-y: 6px;
+  position: relative;
+}
+
+.overlayRss{
+  position: absolute;
+  height: 37px;
+  width: 3.1%;
+  background-color: #D6BE13;
+  opacity: 1;
+}
+
+.twitterBox {
+  width: 13%;
+  height: 37px;
+  /*background-color: green;*/
+  display: inline-block;
+  border-bottom: grey solid 3px;
+  vertical-align: bottom;
+  background-image: url(twitter.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 9px;
+  background-position-y: 6px;
+  position: relative;
+}
+
+.overlayTwitter{
+  position: absolute;
+  height: 37px;
+  width: 3.1%;
+  background-color: #1385D6;
+  opacity: 1;
+}
+
+.youtubeBox {
+  width: 13%;
+  height: 37px;
+  /*background-color: green;*/
+  display: inline-block;
+  border-bottom: grey solid 3px;
+  vertical-align: bottom;
+  background-image: url(youtube.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 9px;
+  background-position-y: 6px;
+  position: relative;
+}
+
+.overlayYoutube{
+  position: absolute;
+  height: 37px;
+  width: 3.1%;
+  background-color: #D64013;
+  opacity: 1;
+}
+
+/*NAV CONTAINER STYLES*/
+.navContainer{
+  background-color: #f69898;
+  width:100%;
+  min-height: 200px;
+}
+
+/*SLIDER CONTAINER STYLES*/
+.sliderContainer{
+  background-color: grey;
+  width: 100%;
+  min-height: 200px;
+}
+
+/*TEXT CONTAINER STYLES*/
+.textContainer{
+  background-color: #c49db0;
+  width: 100%;
+  min-height: 200px;
+}
+
+/*SKATER PROFILE CONTAINER STYLES*/
+.skaterProfileContainer{
+  background-color: #fffce3;
+  width: 100%;
+  min-height: 200px;
+}
+
+/*SKATE BOARD CONTAINER STYLES*/
+.skateBoardContainer{
+  background-color: #eeeeee;
+  width: 100%;
+  min-height: 200px;
+}
+
+/*FOOOTER STYLES*/
+footer{
+  background-color: #b4eacf;
+  width: 100%;
+  min-height: 200px;
+}
