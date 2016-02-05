@@ -233,15 +233,109 @@ header li{
 .textContainer{
   /*background-color: #c49db0;*/
   width: 100%;
-  min-height: 200px;
+  /*min-height: 200px;*/
+  position: relative;
+}
+
+.wrapperText{
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 18px;
+}
+
+.textBox{
+  display: inline-block;
+  background-color: #F8F8F8;
+  width: 31%;
+  /* max-height: 252px; */
+  margin-top: 55px;
+  margin-right: 15px;
+}
+
+h6{
+  font-size: 14px;
+}
+
+.date{
+  font-size: 10px;
+  color: #C8C8C8;
+}
+
+.textArea{
+  font-size: 11px;
+  color: #898989;
+}
+
+.readMore{
+  text-align: center;
+  color: #B74247;
+  font-size: 12px;
 }
 
 /*SKATER PROFILE CONTAINER STYLES*/
 .skaterProfileContainer{
-  /*background-color: #fffce3;*/
   width: 100%;
   min-height: 200px;
+  position: relative;
+  margin-top: 21px;
 }
+
+.profileLeftContainer{
+  display: inline-block;
+  width: 70%;
+}
+
+.profileRightContainer{
+  display: inline-block;
+  width: 27%;
+  height: 170px;
+}
+
+.lanceContainer{
+  background-image: url(lance.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 164px;
+    width: 47.7%;
+    border: 3px solid white;
+    background-size: 346px;
+    background-position-x: -67px;
+}
+
+.rodneyContainer{
+    background-image: url(rodney.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 164px;
+    width: 49%;
+    border: 3px solid white;
+
+}
+
+.steveContainer{
+  background-image: url(steve.png);
+  background-repeat: no-repeat;
+  height: 180px;
+  width: 98.7%;
+  border: 3px solid white;
+  background-position-y: -44px;
+  background-size: 577px;
+  background-position-x: 2px;
+}
+
+.tommyContainer{
+    background-image: url(tommy.png);
+    background-repeat: no-repeat;
+    height: 353px;
+    width: 98.7%;
+    border: 3px solid white;
+    background-size: 607px;
+    background-position-x: -299px;
+    background-position-y: 2px;
+}
+
+
 
 /*SKATE BOARD CONTAINER STYLES*/
 .skateBoardContainer{
