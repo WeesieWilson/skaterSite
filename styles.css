@@ -453,6 +453,7 @@ header li{
   background-image: url(sk8-1.png);
 }
 
+
 /*FOOOTER STYLES*/
 footer{
   background-color: white;
@@ -537,35 +538,34 @@ aside p{
 /*ARROW CONTAINER*/
 .arrowContainer{
   width: 12%;
-height: 76px;
-background-color: #B4292E;
-top: 47%;
-position: absolute;
-left: 5%;
-/*text-align: center;*/
-border-bottom: 2px grey solid;
+  height: 76px;
+  background-color: #B4292E;
+  top: 47%;
+  position: absolute;
+  left: 5%;
+  border-bottom: 2px grey solid;
 
 
 }
 
 .arrowPoint{
   width: 10%;
-height: 100px;
-/* background-color: blue; */
-top: 47%;
-position: absolute;
-left: 17%;
-/* width: 0; */
-height: 0;
-border-top: 38px solid transparent;
-border-bottom: 38px solid transparent;
-border-left: 27px solid #B4292E;
+  height: 100px;
+  top: 47%;
+  position: absolute;
+  left: 17%;
+  height: 0;
+  border-top: 38px solid transparent;
+  border-bottom: 38px solid transparent;
+  border-left: 27px solid #B4292E;
 }
 
 .arrowContainer p{
-  margin-top: 18%;
-text-transform: uppercase;
-color: white;
-font-size: 15px;
-margin-left: 7%;
+    margin-top: 14%;
+    text-transform: uppercase;
+    color: white;
+    font-size: 23px;
+    margin-left: 7%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 900;
 }
