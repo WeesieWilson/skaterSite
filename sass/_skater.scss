@@ -1,0 +1,124 @@
+
+/*SKATER PROFILE CONTAINER STYLES*/
+.skaterProfileContainer{
+  width: 100%;
+  min-height: 200px;
+  position: relative;
+  margin-top: 21px;
+  font-family: 'Biryani', sans-serif;
+}
+
+.profileLeftContainer{
+  display: inline-block;
+  width: 70%;
+}
+
+.profileRightContainer{
+  display: inline-block;
+  width: 27%;
+  height: 170px;
+}
+
+.lanceContainer{
+    background-image: url(../lance.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 164px;
+    width: 47.7%;
+    border: 3px solid white;
+    background-size: 346px;
+    background-position-x: -67px;
+}
+.lanceContainer p{
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 43px 78px;
+    font-family: 'Biryani', sans-serif;
+}
+.lanceContainer span{
+  color: white;
+  position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: -26px -43px;
+}
+
+.rodneyContainer{
+    background-image: url(../rodney.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 164px;
+    width: 49%;
+    border: 3px solid white;
+}
+.rodneyContainer p{
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 43px 78px;
+    font-family: 'Biryani', sans-serif;
+}
+.rodneyContainer span{
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: -28px 1px;
+    font-family: 'Biryani', sans-serif;
+}
+
+.steveContainer{
+  background-image: url(../steve.png);
+  background-repeat: no-repeat;
+  height: 180px;
+  width: 98.7%;
+  border: 3px solid white;
+  background-position-y: -44px;
+  background-size: 577px;
+  background-position-x: 2px;
+}
+.steveContainer p{
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 71px 153px;
+    font-family: 'Biryani', sans-serif;
+}
+
+.tommyContainer{
+    background-image: url(../tommy.png);
+    background-repeat: no-repeat;
+    height: 360px;
+    width: 98.7%;
+    border: 3px solid white;
+    background-size: 637px;
+    background-position-x: -299px;
+    background-position-y: 2px;
+}
+.tommyContainer p{
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 147px 47px;
+    font-family: 'Biryani', sans-serif;
+}
+.tommyContainer span{
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: -24px -44px;
+}

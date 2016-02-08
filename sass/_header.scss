@@ -1,0 +1,102 @@
+/*HEADER STYLES*/
+header{
+  /*background-color: lightpink;*/
+  width:100%;
+  text-align: right;
+}
+
+header p{
+  display: inline-block;
+  position: relative;
+  font-size: 12px;
+  color: #D1CDCA;
+  text-transform: uppercase;
+  vertical-align: text-bottom;
+  margin-right: 7px;
+
+}
+
+header div{
+  display: inline-block;
+}
+
+header ul{
+  margin-right: -168px;
+  position: relative;
+}
+
+header li{
+    font-size: 8px;
+    margin-top: -5px;
+    margin-left: 112px;
+    color: white;
+}
+
+.socialContainer{
+  display: inline-block;
+  width: 40%;
+  padding-top: 4px;
+  position: relative;
+
+}
+
+.facebookBox {
+  width: 13%;
+  height: 37px;
+  display: inline-block;
+  border-bottom: 3px solid hsl(0, 0%, 53%);
+  vertical-align: bottom;
+  background-image: url(../facebookHeader.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 9px;
+  background-position-y: 6px;
+  position: relative;
+  background-color: #445897;
+}
+
+.rssBox {
+  width: 13%;
+  height: 37px;
+  /*background-color: green;*/
+  display: inline-block;
+  border-bottom: 3px solid hsl(0, 0%, 53%);
+  vertical-align: bottom;
+  background-image: url(../rssHeader.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 9px;
+  background-position-y: 6px;
+  position: relative;
+  background-color: #CC8F32;
+}
+
+.twitterBox {
+  width: 13%;
+  height: 37px;
+  background-color: #6A8DC7;
+  display: inline-block;
+  border-bottom: 3px solid hsl(0, 0%, 53%);
+  vertical-align: bottom;
+  background-image: url(../twitterHeader.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 9px;
+  background-position-y: 6px;
+  position: relative;
+}
+
+.youtubeBox {
+  width: 13%;
+  height: 37px;
+  background-color: #B2382D;
+  display: inline-block;
+  border-bottom: 3px solid hsl(0, 0%, 53%);
+  vertical-align: bottom;
+  background-image: url(../youtubeHeader.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 9px;
+  background-position-y: 6px;
+  position: relative;
+}

@@ -1,13 +1,15 @@
-@import "styles";
-@import "universal";
+
+@import"universal";
+
 
 /*UNIVERSAL STYLES*/
 body{
-  background-image: url(bg.jpg);
+  background-image: url(../bg.jpg);
   background-size: cover;
   width: 100%;
   position: relative;
   font-family:'Open Sans Condensed', sans-serif;
+  // background-attachment: fixed;
 }
 
 .backgroundOverlay{
@@ -78,7 +80,7 @@ header li{
   display: inline-block;
   border-bottom: 3px solid hsl(0, 0%, 53%);
   vertical-align: bottom;
-  background-image: url(facebookHeader.png);
+  background-image: url(../facebookHeader.png);
   background-repeat: no-repeat;
   background-size: 60%;
   background-position-x: 9px;
@@ -94,7 +96,7 @@ header li{
   display: inline-block;
   border-bottom: 3px solid hsl(0, 0%, 53%);
   vertical-align: bottom;
-  background-image: url(rssHeader.png);
+  background-image: url(../rssHeader.png);
   background-repeat: no-repeat;
   background-size: 60%;
   background-position-x: 9px;
@@ -110,7 +112,7 @@ header li{
   display: inline-block;
   border-bottom: 3px solid hsl(0, 0%, 53%);
   vertical-align: bottom;
-  background-image: url(twitterHeader.png);
+  background-image: url(../twitterHeader.png);
   background-repeat: no-repeat;
   background-size: 60%;
   background-position-x: 9px;
@@ -125,7 +127,7 @@ header li{
   display: inline-block;
   border-bottom: 3px solid hsl(0, 0%, 53%);
   vertical-align: bottom;
-  background-image: url(youtubeHeader.png);
+  background-image: url(../youtubeHeader.png);
   background-repeat: no-repeat;
   background-size: 60%;
   background-position-x: 9px;
@@ -187,7 +189,7 @@ header li{
     margin-top: 22px;
     border: white 7px solid;
     width: 100%;
-    background-image: url(top-image.png);
+    background-image: url(../top-image.png);
     background-size: 132%;
     height: 260px;
     background-repeat-y: 337;
@@ -198,7 +200,7 @@ header li{
 }
 
 .overlaySlider{
-  background-image: url(grid.png);
+  background-image: url(../grid.png);
   background-repeat: no-repeat;
   top: 0;
   left: 0;
@@ -296,7 +298,7 @@ header li{
 }
 
 .lanceContainer{
-    background-image: url(lance.png);
+    background-image: url(../lance.png);
     background-repeat: no-repeat;
     display: inline-block;
     height: 164px;
@@ -304,6 +306,7 @@ header li{
     border: 3px solid white;
     background-size: 346px;
     background-position-x: -67px;
+
 }
 .lanceContainer p{
     color: white;
@@ -585,3 +588,12 @@ textarea{
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 900;
 }
+@import 'header';
+@import"nav";
+@import"slider";
+@import"text";
+@import"skater";
+@import"skateboards";
+@import"footer";
+@import 'mobile';
+@import"tabley";

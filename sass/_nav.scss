@@ -1,0 +1,38 @@
+/*NAV CONTAINER STYLES*/
+.navContainer{
+  width:100%;
+}
+
+.navLinksContainer{
+  background-color: #B4292E;
+  width: 24.1%;
+  display: inline-block;
+  height: 30px;
+  border-bottom: #919091 3px solid;
+  margin-left: 4px;
+  margin-right: -1.1px;
+  position: relative;
+  text-align: center;
+}
+
+.navHeader{
+  display: inline-block;
+  margin-top: 3%;
+}
+
+.navHeader p{
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #F4EDE3;
+  margin: 0 auto;
+  font-weight: 100;
+  margin: 0px 5px;
+}
+
+.navHeader p:first-child, p:last-child{
+  font-weight: 900;
+  margin: 0px 8px;
+  font-family: ariel;
+
+}
