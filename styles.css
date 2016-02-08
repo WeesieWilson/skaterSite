@@ -18,12 +18,13 @@ body{
   bottom: 0;
 }
 
-
 .wrapper{
   width: 60%;
   margin: 0 auto;
-  min-height: 900px;
+  /*min-height: 900px;*/
 }
+
+
 
 /*HEADER STYLES*/
 header{
@@ -59,7 +60,6 @@ header li{
     color: white;
 }
 
-
 .socialContainer{
   display: inline-block;
   width: 40%;
@@ -86,6 +86,7 @@ header li{
   background-color: rgba(27, 35, 97, 0.98);
   opacity: .7;
 }
+
 .rssBox {
   width: 13%;
   height: 37px;
@@ -100,7 +101,6 @@ header li{
   background-position-y: 6px;
   position: relative;
 }
-
 .overlayRss{
   position: absolute;
   height: 37px;
@@ -123,7 +123,6 @@ header li{
   background-position-y: 6px;
   position: relative;
 }
-
 .overlayTwitter{
   position: absolute;
   height: 37px;
@@ -146,7 +145,6 @@ header li{
   background-position-y: 6px;
   position: relative;
 }
-
 .overlayYoutube{
   position: absolute;
   height: 37px;
@@ -154,6 +152,8 @@ header li{
   background-color: #D64013;
   opacity: 1;
 }
+
+
 
 /*NAV CONTAINER STYLES*/
 .navContainer{
@@ -186,6 +186,8 @@ header li{
   font-weight: 100;
 }
 
+
+
 /*SLIDER CONTAINER STYLES*/
 .sliderContainer{
   /*background-color: grey;*/
@@ -205,6 +207,7 @@ header li{
     background-repeat: no-repeat;
     background-position-y: -115px;
     background-position-x: -86px;
+    box-sizing: border-box;
 }
 
 .overlaySlider{
@@ -216,10 +219,11 @@ header li{
   bottom: 0;
   margin-top: 7px;
   position: absolute;
-  margin-left: 8px;
+  margin-left: -3px;
   width: 100%;
   opacity: .2;
 }
+
 .sliderPic img{
   position: relative;
   height: 158px;
@@ -250,6 +254,8 @@ header li{
   /* max-height: 252px; */
   margin-top: 55px;
   margin-right: 15px;
+  vertical-align: top;
+  min-height: 236px;
 }
 
 h6{
@@ -264,6 +270,14 @@ h6{
 .textArea{
   font-size: 11px;
   color: #898989;
+  min-height: 93px;
+}
+
+.textAreaLast{
+  font-size: 11px;
+  color: #898989;
+  min-height: 93px;
+  margin-bottom: 38px;
 }
 
 .readMore{
@@ -271,6 +285,8 @@ h6{
   color: #B74247;
   font-size: 12px;
 }
+
+
 
 /*SKATER PROFILE CONTAINER STYLES*/
 .skaterProfileContainer{
@@ -301,6 +317,22 @@ h6{
     background-size: 346px;
     background-position-x: -67px;
 }
+.lanceContainer p{
+  color: white;
+  position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 43px 78px;
+}
+.lanceContainer span{
+  color: white;
+  position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: -3px -26px;
+}
 
 .rodneyContainer{
     background-image: url(rodney.png);
@@ -310,7 +342,22 @@ h6{
     height: 164px;
     width: 49%;
     border: 3px solid white;
-
+}
+.rodneyContainer p{
+  color: white;
+  position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 43px 78px;
+}
+.rodneyContainer span{
+  color: white;
+  position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: -5px 1px;
 }
 
 .steveContainer{
@@ -323,6 +370,14 @@ h6{
   background-size: 577px;
   background-position-x: 2px;
 }
+.steveContainer p{
+  color: white;
+  position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 71px 153px;
+}
 
 .tommyContainer{
     background-image: url(tommy.png);
@@ -330,23 +385,110 @@ h6{
     height: 353px;
     width: 98.7%;
     border: 3px solid white;
-    background-size: 607px;
+    background-size: 624px;
     background-position-x: -299px;
     background-position-y: 2px;
 }
-
+.tommyContainer p{
+  color: white;
+  position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 175px 55px;
+}
+.tommyContainer span{
+  color: white;
+  position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: -6px -25px;
+}
 
 
 /*SKATE BOARD CONTAINER STYLES*/
 .skateBoardContainer{
-  /*background-color: #eeeeee;*/
-  width: 100%;
-  min-height: 200px;
+  background-color: white;
+  width: 98%;
+  position: relative;
+  margin-top: 35px;
+}
+
+.wrapperSkateBoard{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.skateBoardBox{
+  display: inline-block;
+    width: 9.4%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 211px;
+
+    background-size: 73%;
+    background-position: center;
+    padding: 16px 0;
+}
+
+#one{
+  background-image: url(sk8-3.png);
+}
+#two{
+  background-image: url(sk8-4.png);
+}
+#three{
+  background-image: url(sk8-5.png);
+}
+#four{
+  background-image: url(sk8-6.png);
+}
+#five{
+  background-image: url(sk8-7.png);
+}
+#six{
+  background-image: url(sk8-8.png);
+}
+#seven{
+  background-image: url(sk8-9.png);
+}
+#eight{
+  background-image: url(sk8-10.png);
+}
+#nine{
+  background-image: url(sk8-2.png);
+}
+#ten{
+  background-image: url(sk8-1.png);
 }
 
 /*FOOOTER STYLES*/
 footer{
-  /*background-color: #b4eacf;*/
-  width: 100%;
+  background-color: white;
+  width: 98%;
   min-height: 200px;
+  position: relative;
+  color: #444543;
+  margin-top: 20px;
+}
+
+.wrapperFooter{
+  margin: 0 auto;
+  width: 90%;
+}
+
+aside{
+  width: 50%;
+  padding: 30px 0px;
+}
+
+aside h7{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+aside p{
+  font-weight: 100;
+    font-size: 13px;
 }
